@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#425C5A"
+
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="-5dp"
+
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/btnClosePayment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="-5dp"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_clear_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="60dp"
+                android:text="Payment Method"
+                android:textColor="@color/bg"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffc3a2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffc3a2"
+                android:text="ONE WAY"
+                android:textStyle="bold"
+                android:textColor="#425c5a" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sydney -> London . 3 Passengers"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:text="Total: 2.190.000đ"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fullradius"
+            android:layout_marginBottom="10dp"
+            >
+            <ImageView
+                android:id="@+id/imgPayment1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/onlinepayment"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:text="ATM Card and Internet Banking"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                app:layout_constraintStart_toEndOf="@+id/imgPayment1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fullradius"
+            android:layout_marginBottom="10dp"
+           >
+            <ImageView
+                android:id="@+id/imgPayment2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:src="@drawable/onlinewallet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center"
+                android:text="E - Wallet"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                app:layout_constraintStart_toEndOf="@+id/imgPayment2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/black"
+                android:background="#0000">
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fullradius"
+            android:layout_marginBottom="10dp"
+            >
+            <ImageView
+                android:id="@+id/imgPayment3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/creditcard"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center"
+                android:text="International Card"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                app:layout_constraintStart_toEndOf="@+id/imgPayment3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/black"
+                android:background="#0000">
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/menudesign"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:stretchColumns="*"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/btnPaymentContinue"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/text"
+                android:text="Continue"
+                android:textColor="@color/bg"/>
+        </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

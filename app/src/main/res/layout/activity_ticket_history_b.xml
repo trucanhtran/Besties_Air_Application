@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicketHistory_b"
+    android:background="#425c5a"
+    android:orientation="vertical"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <LinearLayout
+                android:id="@+id/linearticket1"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ticket_history" />
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="25dp"
+                        android:text="ID: 123456"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="25dp"
+                        android:text="Ho Chi Minh - Hue"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="20dp"
+                        android:text="10:30 Fri - 4 December"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="20dp"
+                        android:text="999.000đ"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <ImageButton
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text"
+                android:orientation="horizontal"
+                android:padding="-10dp">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ticket_history" />
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="25dp"
+                        android:text="ID: 123428"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="25dp"
+                        android:text="Hue - Ho Chi Minh"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="20dp"
+                        android:text="15:30 Wed - 20 December"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="20dp"
+                        android:text="789.000đ"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="135dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearticketused"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:src="@drawable/ticket_error" />
+
+                    <LinearLayout
+                        android:layout_width="170dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="25dp"
+                            android:text="ID: 123428"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="25dp"
+                            android:text="Hue - Ho Chi Minh"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="20dp"
+                            android:text="15:30 Tue - 20 December"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="20dp"
+                            android:text="789.000đ"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/ibTicketused"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/white"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="1dp"
+                    android:background="#373333"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="150dp"
+                    android:gravity="center"
+                    android:paddingTop="2dp"
+                    android:text="*The ticket is not valid"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

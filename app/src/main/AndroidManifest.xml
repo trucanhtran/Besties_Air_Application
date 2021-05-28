@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.besties">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_besties"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Besties">
+        <activity android:name=".AddFlight_8">
+
+        </activity>
+
+        <activity android:name=".BookFlight_6">
+
+        </activity>
+        <activity android:name=".BookFlightSelectPassengers_7">
+
+        </activity>
+        <activity android:name=".BookYourSeat_12">
+
+        </activity>
+        <activity android:name=".ChooseStore_24">
+
+        </activity>
+        <activity android:name=".Confirmmation_15">
+
+        </activity>
+        <activity android:name=".ConfirmOrder_28">
+
+        </activity>
+        <activity android:name=".CustomizeProduct_25">
+
+        </activity>
+        <activity android:name=".DetailPurchase_18">
+
+        </activity>
+        <activity android:name=".DetailPurchase_26">
+
+        </activity>
+        <activity android:name=".FlightDetail_14">
+
+        </activity>
+        <activity android:name=".FoodHome_21">
+
+        </activity>
+        <activity android:name=".Login_3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".ManHinhDau_0">
+
+        </activity>
+        <activity android:name=".MapPage_22">
+
+        </activity>
+        <activity android:name=".MapPage_29">
+
+        </activity>
+        <activity android:name=".FoodSearch_30">
+
+        </activity>
+        <activity android:name=".MyAccount_5">
+
+        </activity>
+        <activity android:name=".OTP_2">
+
+        </activity>
+        <activity android:name=".Addservice_11">
+
+        </activity>
+        <activity android:name=".PassengerInformation_9">
+
+        </activity>
+        <activity android:name=".PaymentMethod_13">
+
+        </activity>
+        <activity android:name=".PaymentMethod_27">
+
+        </activity>
+        <activity android:name=".PurchaseHistory_17">
+
+        </activity>
+        <activity android:name=".Register_1">
+
+        </activity>
+        <activity android:name=".TapOn_22">
+
+        </activity>
+        <activity android:name=".TicketHistory_a">
+
+        </activity>
+
+
+        <activity android:name=".TicketWasUsed_20">
+
+        </activity>
+        <activity android:name=".FoodTapon_23">
+
+        </activity>
+        <activity android:name=".Login_passenger">
+
+        </activity>
+
+    </application>
+
+</manifest>

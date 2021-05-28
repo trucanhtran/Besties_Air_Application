@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="60dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="@color/white"
+                android:padding="-10dp">
+
+                <ImageButton
+                    android:id="@+id/btnBackToFoodHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="-5dp"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_chevron_left_24" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/search">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/ic_baseline_search_24" />
+
+                    <EditText
+                        android:layout_width="350dp"
+                        android:paddingTop="0dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:hint="Search"
+                        android:paddingRight="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/txtTraSua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+
+                    android:text="  Trà sữa  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Cà phê  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Sinh tố  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Cơm  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+           />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Bún - Phở - Cháo  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Gà rán - Burger  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                   />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Ăn vặt  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Lẩu &amp; Nướng  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+             />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Món Hàn  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                 />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Món Thái  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Món Nhật  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Món Chay  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+              />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/fullradius"
+
+                    android:padding="10dp"
+                    android:text="  Healthy  "
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/menudesign"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp">
+
+            <ImageButton
+                android:id="@+id/btnHome"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#0000"
+                android:src="@drawable/ic_baseline_home_24"
+                />
+
+            <ImageButton
+                android:id="@+id/btnBooking"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#0000"
+                android:src="@drawable/air"/>
+
+            <ImageButton
+                android:id="@+id/btnFood"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#0000"
+                android:src="@drawable/ic_baseline_local_dining_24_trang"/>
+
+            <ImageButton
+                android:id="@+id/btnMaps"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#0000"
+                android:src="@drawable/ic_baseline_map_24"/>
+
+            <ImageButton
+                android:id="@+id/btnMyAccount"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#0000"
+                android:src="@drawable/ic_baseline_person_24"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="-3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Home"
+                android:textColor="#9EFFFFFF"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Booking"
+                android:textColor="#9EFFFFFF"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Food"
+                android:textColor="#9EFFFFFF"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Maps"
+                android:textColor="#9EFFFFFF"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="My Account"
+                android:textColor="#9EFFFFFF"
+                android:textSize="10sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
